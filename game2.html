@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>游戏2 - 我的游戏站</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .game-container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .nav-bar {
+            background-color: #333;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        .nav-bar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .nav-bar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .nav-bar a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .home-button {
+            margin-bottom: 20px;
+        }
+        .home-button a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .home-button a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>游戏2名称</h1>
+    </header>
+
+    <div class="nav-bar">
+        <a href="index.html">首页</a>
+        <a href="game1.html">游戏1</a>
+        <a href="game2.html" class="active">游戏2</a>
+        <a href="game3.html">游戏3</a>
+        <!-- 添加更多游戏链接 -->
+    </div>
+
+    <div class="home-button">
+        <a href="index.html">返回游戏列表</a>
+    </div>
+
+    <div class="game-container">
+        <!-- 在这里放置您的游戏代码，可以是iframe嵌入或直接的游戏代码 -->
+        <iframe src="games/game2/index.html" width="100%" height="600px" frameborder="0"></iframe>
+        <!-- 或者直接放置游戏的HTML/JavaScript代码 -->
+    </div>
+
+    <footer style="text-align: center; margin-top: 50px; color: #666;">
+        <p>&copy; 2023 我的游戏站. 保留所有权利.</p>
+    </footer>
+</body>
+</html> 
